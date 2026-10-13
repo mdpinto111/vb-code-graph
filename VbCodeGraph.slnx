@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/VbCodeGraph/VbCodeGraph.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/VbCodeGraph.Tests/VbCodeGraph.Tests.csproj" />
+  </Folder>
+</Solution>

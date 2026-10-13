@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AssemblyName>vb-code-graph</AssemblyName>
+    <RootNamespace>VbCodeGraph</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>David Pinto</Authors>
+    <Description>Maps a legacy VB.NET / ASP.NET WebForms code base: entities, call graph and constants.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>vb-code-graph</ToolCommandName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="VbCodeGraph.Tests" />
+  </ItemGroup>
+
+</Project>
